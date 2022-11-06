@@ -1,0 +1,68 @@
+.header{
+   /* height: 62px;*/
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+.header_start{
+    display: flex;
+    flex-grow: 1;
+    
+
+}
+.header_logo{
+    margin-left: 10;
+}
+.header_adress{
+   display: flex;
+   margin-left: 25px;
+}
+.header_adress_left{
+    
+}
+.header_adress_right{
+   flex-direction: column;
+}
+.header_center{
+    flex-grow: 1;
+    display: flex;
+    
+    
+
+}
+.header_end{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.header_language{
+    flex-grow: 1;
+    margin-top: 15px;
+
+
+}
+.header_account{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+
+}
+.header_order{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.header_cart{
+    flex-grow: 1;
+
+}
